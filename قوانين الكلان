@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قوانين كلان ΛТК༄</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(30, 30, 50, 0.8);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid #4cc9f0;
+        }
+        
+        .clan-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #4cc9f0;
+        }
+        
+        .clan-logo {
+            font-size: 3.5rem;
+            margin: 0;
+            text-shadow: 0 0 15px #4cc9f0;
+            color: #f72585;
+        }
+        
+        .clan-name {
+            font-size: 2rem;
+            margin: 10px 0;
+            color: #4cc9f0;
+        }
+        
+        .rules-section {
+            margin: 25px 0;
+        }
+        
+        .section-title {
+            color: #f72585;
+            border-right: 4px solid #f72585;
+            padding-right: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .rule {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-right: 4px solid #4cc9f0;
+            transition: transform 0.3s;
+        }
+        
+        .rule:hover {
+            transform: translateX(-5px);
+            background: rgba(255, 255, 255, 0.15);
+        }
+        
+        .rule-number {
+            background: #4cc9f0;
+            color: #0f172a;
+            width: 30px;
+            height: 30px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        
+        .highlight {
+            color: #f72585;
+            font-weight: bold;
+        }
+        
+        .contact-info {
+            background: rgba(76, 201, 240, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 25px 0;
+            border: 1px solid #4cc9f0;
+        }
+        
+        .contact-title {
+            text-align: center;
+            color: #4cc9f0;
+            margin-top: 0;
+        }
+        
+        .contact-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 15px;
+        }
+        
+        .contact-card {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 8px;
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+        }
+        
+        .contact-card h4 {
+            margin: 0 0 10px 0;
+            color: #f72585;
+        }
+        
+        .contact-card p {
+            margin: 5px 0;
+        }
+        
+        .discord-link {
+            display: block;
+            background: #5865F2;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin: 15px 0;
+            text-align: center;
+            transition: background 0.3s;
+        }
+        
+        .discord-link:hover {
+            background: #4752c4;
+        }
+        
+        .requirement {
+            background: rgba(247, 37, 133, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 25px 0;
+            border: 1px solid #f72585;
+        }
+        
+        .points {
+            font-size: 2rem;
+            color: #4cc9f0;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(76, 201, 240, 0.5);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #4cc9f0;
+            font-size: 0.9rem;
+        }
+        
+        .note {
+            font-size: 0.9rem;
+            color: #a3a3c2;
+            text-align: center;
+            margin-top: 5px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .clan-logo {
+                font-size: 2.5rem;
+            }
+            
+            .clan-name {
+                font-size: 1.5rem;
+            }
+            
+            .contact-details {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="clan-header">
+            <h1 class="clan-logo">ΛТК༄</h1>
+            <h2 class="clan-name">قوانين كلان ATK TEAM</h2>
+        </div>
+        
+        <div class="requirement">
+            <p>الحد الأدنى المطلوب من كل عضو أسبوعياً</p>
+            <p class="points">5000 نقطة</p>
+        </div>
+        
+        <div class="contact-info">
+            <h3 class="contact-title">معلومات الاتصال</h3>
+            
+            <a href="https://discord.gg/VdPvtZmZ" target="_blank" class="discord-link">
+                انضم إلى سيرفر الديسكورد - https://discord.gg/VdPvtZmZ
+            </a>
+            
+            <div class="contact-details">
+                <div class="contact-card">
+                    <h4>قائد الكلان</h4>
+                    <p>+963 934 483 016</p>
+                </div>
+                
+                <div class="contact-card">
+                    <h4>مساعد القائد</h4>
+                    <p>+963 940 113 269</p>
+                </div>
+            </div>
+            
+            <p class="note">ملاحظة: رمز الاتصال الدولي لسوريا هو +963، وما يليه هو رقم الهاتف</p>
+        </div>
+        
+        <div class="rules-section">
+            <h3 class="section-title">القوانين الأساسية</h3>
+            
+            <div class="rule">
+                <span class="rule-number">1</span>
+                <span>التزام كل عضو بجمع <span class="highlight">5000 نقطة على الأقل أسبوعياً</span> للمحافظة على مكانه في الكلان.</span>
+            </div>
+            
+            <div class="rule">
+                <span class="rule-number">2</span>
+                <span>يجب على جميع الأعضاء استخدام شعار الكلان <span class="highlight">ΛТК༄</span> قبل أسمائهم في اللعبة.</span>
+            </div>
+            
+            <div class="rule">
+                <span class="rule-number">3</span>
+                <span>الانضمام إلى سيرفر الديسكورد الخاص بالكلان والتفاعل مع الأعضاء.</span>
+            </div>
+            
+            <div class="rule">
+                <span class="rule-number">4</span>
+                <span>الالتزام بآداب اللعب والشرف الرياضي وعدم التسبب في أي إحراج للكلان.</span>
+            </div>
+            
+            <div class="rule">
+                <span class="rule-number">5</span>
+                <span>الانتظام في المشاركة في أنشطة الكلان والأحداث الأسبوعية.</span>
+            </div>
+        </div>
+        
+        <div class="rules-section">
+            <h3 class="section-title">قوانين التفاعل</h3>
+            
+            <div class="rule">
+                <span class="rule-number">6</span>
+                <span>المشاركة الفعالة في الدردشة وتكوين علاقات إيجابية مع أعضاء الكلان.</span>
+            </div>
+            
+            <div class="rule">
+                <span class="rule-number">7</span>
+                <span>الاستجابة لطلبات المساعدة من الأعضاء حسب الإمكانيات المتاحة.</span>
+            </div>
+            
+            <div class="rule">
+                <span class="rule-number">8</span>
+                <span>التواصل مع القادة في حال وجود أي استفسارات أو مشاكل.</span>
+            </div>
+        </div>
+        
+        <div class="rules-section">
+            <h3 class="section-title">قوانين الجزاءات</h3>
+            
+            <div class="rule">
+                <span class="rule-number">9</span>
+                <span>سيتم إنذار أي عضو لم يحقق الحد الأدنى من النقاط في الأسبوع.</span>
+            </div>
+            
+            <div class="rule">
+                <span class="rule-number">10</span>
+                <span>العضو الذي يتكرر منه التقصير لمدة أسبوعين متتاليين سيتم فصله من الكلان.</span>
+            </div>
+            
+            <div class="rule">
+                <span class="rule-number">11</span>
+                <span>أي سلوك غير لائق أو مخالف لشروط اللعبة سيعرض العضو للفصل الفوري.</span>
+            </div>
+            
+            <div class="rule">
+                <span class="rule-number">12</span>
+                <span>عدم الانضمام إلى سيرفر الديسكورد خلال أسبوع من القبول يعرض العضو للإبعاد.</span>
+            </div>
+        </div>
+        
+        <footer>
+            <p>ΛТК༄ - كلان ATK TEAM - جميع الحقوق محفوظة 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
